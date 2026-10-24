@@ -1,0 +1,30 @@
+# CD = Continuous Deployment: code vào main -> tự động ĐƯA LÊN VM.
+#
+# Cần khai báo trước trong GitHub: Settings > Secrets and variables > Actions
+#   VM_HOST     IP ngoài (External IP) của VM   (ví dụ 34.87.xx.xx)
+#   VM_USER     user dùng để SSH vào VM
+#   VM_SSH_KEY  private key để SSH vào VM (cả dòng -----BEGIN ... và -----END ...)
+# Secrets được GitHub giấu, log chỉ hiện ***.
+#
+# Trên VM: thư mục Airflow phải là bản git clone của repo này.
+# Đổi ~/candy-crush-airflow bên dưới thành đúng thư mục Airflow trên VM.
+#
+# Khi đổi requirements.txt / Dockerfile thì git pull chưa đủ, phải build lại image
+# (docker compose build && docker compose up -d) trên VM.
+
+name: CD
+on:
+  push:
+    branches: [main]   # sau khi merge PR
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.VM_HOST }}
+          username: ${{ secrets.VM_USER }}
+          key: ${{ secrets.VM_SSH_KEY }}
+          script: |
+            cd ~/candy-crush-airflow
+            git pull
