@@ -127,3 +127,4 @@ Chạy CI trên nguyên code Lesson 15 cho kết quả **20 test đỏ**. Đã s
 - Import kiểu Airflow 2 (`airflow.decorators`, `from airflow import DAG`) → `airflow.sdk`.
 - Logic ngày và dựng SQL chuyển vào `dags/candycrush/` để test được. Thêm kiểm tra: ngày sai định dạng, ngày tương lai, khoảng ngày ngược hoặc quá dài, event không có trong JSON.
 - Thêm `dags/.airflowignore` (trước đây Airflow mở cả `xsmb/config.py` như 1 file DAG).
+# test CI
