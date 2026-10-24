@@ -1,0 +1,4 @@
+# Image chỉ cần requirements.txt. Loại hết phần còn lại khỏi build context,
+# nhất là secret, để không bao giờ lọt vào image.
+*
+!requirements.txt

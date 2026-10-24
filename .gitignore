@@ -1,0 +1,27 @@
+# Secret: tuyệt đối không commit
+.env
+.env.*
+!.env.example
+secrets/*
+!secrets/.gitkeep
+*.pem
+*-key.json
+gcp-sa*.json
+
+# Sinh ra khi chạy
+logs/
+config/airflow.cfg
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+xsmb_results.csv
+
+# Môi trường Python trên máy cá nhân
+.venv/
+venv/
+
+# Máy cá nhân
+.DS_Store
+.vscode/
+.idea/

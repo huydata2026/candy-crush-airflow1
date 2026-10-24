@@ -1,0 +1,10 @@
+# Thư viện để kiểm tra code (lint + unit test). KHÔNG cài vào image Airflow.
+# Cài trên máy cá nhân:  pip install -r requirements-dev.txt
+# Version khớp file constraints của Airflow 3.3.2 (Python 3.12).
+pytest==9.1.1
+ruff==0.17.1
+
+# Package xsmb/ cần 3 thư viện này (image Airflow đã có sẵn)
+pandas==3.0.5
+python-dotenv==1.2.3
+requests==2.34.2

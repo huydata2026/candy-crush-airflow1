@@ -1,0 +1,2 @@
+# Script chạy trên VM Linux: luôn giữ xuống dòng kiểu LF (kể cả khi sửa trên Windows)
+*.sh text eol=lf

@@ -1,0 +1,19 @@
+# Cấu hình công cụ kiểm tra code. GitHub Actions (CI) và máy cá nhân dùng chung file này
+# -> chạy ở đâu cũng ra cùng 1 kết quả.
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"          # khớp Python trong image apache/airflow:3.3.2
+src = ["dags"]                     # để ruff biết candycrush, xsmb là code của mình
+extend-exclude = ["logs", "config", "plugins"]
+
+[tool.ruff.lint]
+# E, W: lỗi định dạng cơ bản    F: lỗi logic (biến chưa khai báo, import thừa...)
+# I: thứ tự import               AIR: luật riêng cho Airflow (import cũ của Airflow 2...)
+select = ["E", "W", "F", "I", "AIR"]
+ignore = ["E501"]                  # dòng dài: để `ruff format` lo
+
+[tool.pytest.ini_options]
+pythonpath = ["dags"]              # để test import được candycrush, xsmb (giống Airflow)
+testpaths = ["tests"]
+addopts = "-ra"

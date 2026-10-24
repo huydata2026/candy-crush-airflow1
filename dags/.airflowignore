@@ -1,0 +1,6 @@
+# Thư mục chỉ chứa code dùng chung / file SQL, không phải file DAG.
+# Không có file này, Airflow mở cả các file trong đó để tìm DAG (tốn thời gian,
+# và từng báo lỗi import nhầm xsmb/config.py như là 1 DAG).
+candycrush/
+xsmb/
+sql/

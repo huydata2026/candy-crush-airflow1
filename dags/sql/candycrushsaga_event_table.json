@@ -1,0 +1,202 @@
+[
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "ad_complete",
+    "event_name": "ad_complete",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, ad_complete_ga_session_number ga_session_number, ad_complete_ga_session_id ga_session_id, ad_complete_mode mode, ad_complete_level level, ad_complete_ad_network ad_network, ad_complete_ad_platform ad_platform, ad_complete_ad_format ad_format, ad_complete_placement placement, ad_complete_ad_duration ad_duration, ad_complete_end_type end_type"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "ad_impression",
+    "event_name": "ad_impression",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, ad_impression_ga_session_number ga_session_number, ad_impression_ga_session_id ga_session_id, ad_impression_mode mode, ad_impression_level level, ad_impression_ad_network ad_network, ad_impression_ad_platform ad_platform, ad_impression_ad_format ad_format, ad_impression_ad_source ad_source, ad_impression_ad_unit_name ad_unit_name, ad_impression_placement placement, ad_impression_is_show is_show, ad_impression_value value, ad_impression_currency currency"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "ad_request",
+    "event_name": "ad_request",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, ad_request_ga_session_number ga_session_number, ad_request_ga_session_id ga_session_id, ad_request_mode mode, ad_request_level level, ad_request_ad_network ad_network, ad_request_ad_platform ad_platform, ad_request_ad_format ad_format, ad_request_placement placement, ad_request_is_load is_load, ad_request_load_time load_time"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "ad_reward",
+    "event_name": "ad_reward",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, ad_reward_ga_session_number ga_session_number, ad_reward_ga_session_id ga_session_id, ad_reward_ad_unit_code ad_unit_code, ad_reward_reward_type reward_type, ad_reward_reward_value reward_value"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "iap_click",
+    "event_name": "iap_click",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, iap_click_ga_session_number ga_session_number, iap_click_ga_session_id ga_session_id, iap_click_mode mode, iap_click_level level, iap_click_placement placement, iap_click_pack_name pack_name, iap_click_show_type show_type"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "iap_purchase",
+    "event_name": "iap_purchase",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, event_value_in_usd, iap_purchase_ga_session_number ga_session_number, iap_purchase_ga_session_id ga_session_id, iap_purchase_mode mode, iap_purchase_level level, iap_purchase_placement placement, iap_purchase_pack_name pack_name, iap_purchase_show_type show_type, iap_purchase_currency currency, iap_purchase_price price, iap_purchase_first_payment first_payment"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "iap_show",
+    "event_name": "iap_show",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, iap_show_ga_session_number ga_session_number, iap_show_ga_session_id ga_session_id, iap_show_mode mode, iap_show_level level, iap_show_placement placement, iap_show_pack_name pack_name, iap_show_show_type show_type"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "in_app_purchase",
+    "event_name": "in_app_purchase",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, event_value_in_usd, in_app_purchase_ga_session_number ga_session_number, in_app_purchase_ga_session_id ga_session_id, in_app_purchase_product_id product_id, in_app_purchase_currency currency, in_app_purchase_price price, in_app_purchase_value value, in_app_purchase_quantity quantity"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "first_open",
+    "event_name": "first_open",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, first_open_ga_session_number ga_session_number, first_open_ga_session_id ga_session_id, first_open_previous_first_open_count previous_first_open_count"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "session_start",
+    "event_name": "session_start",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, session_start_ga_session_number ga_session_number, session_start_ga_session_id ga_session_id, session_start_session_engaged session_engaged"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "user_engagement",
+    "event_name": "user_engagement",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, user_engagement_ga_session_number ga_session_number, user_engagement_ga_session_id ga_session_id, user_engagement_engagement_time_msec engagement_time_msec"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "resource_earn",
+    "event_name": "resource_earn",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, resource_earn_ga_session_number ga_session_number, resource_earn_ga_session_id ga_session_id, resource_earn_placement placement, resource_earn_reason reason, resource_earn_resource_amount resource_amount, resource_earn_resource_name resource_name, resource_earn_resource_balance resource_balance"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "resource_spend",
+    "event_name": "resource_spend",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, resource_spend_ga_session_number ga_session_number, resource_spend_ga_session_id ga_session_id, resource_spend_placement placement, resource_spend_reason reason, resource_spend_resource_amount resource_amount, resource_spend_resource_name resource_name, resource_spend_resource_balance resource_balance"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "egg_hatching",
+    "event_name": "egg_hatching",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, egg_hatching_ga_session_number ga_session_number, egg_hatching_ga_session_id ga_session_id, egg_hatching_island island, egg_hatching_rarity rarity, egg_hatching_reason reason"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "grinch_gift_heist_end",
+    "event_name": "grinch_gift_heist_end",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, grinch_gift_heist_end_ga_session_number ga_session_number, grinch_gift_heist_end_ga_session_id ga_session_id, grinch_gift_heist_end_race_number race_number, grinch_gift_heist_end_event_day event_day, grinch_gift_heist_end_position position"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "island_race_finish",
+    "event_name": "island_race_finish",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, island_race_finish_ga_session_number ga_session_number, island_race_finish_ga_session_id ga_session_id, island_race_finish_result result, island_race_finish_position position"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "land_decor_unlock",
+    "event_name": "land_decor_unlock",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, land_decor_unlock_ga_session_number ga_session_number, land_decor_unlock_ga_session_id ga_session_id, land_decor_unlock_placement placement, land_decor_unlock_island island, land_decor_unlock_option_choose option_choose"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "level_end",
+    "event_name": "level_end",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, level_end_ga_session_number ga_session_number, level_end_ga_session_id ga_session_id, level_end_mode mode, level_end_level level, level_end_play_type play_type, level_end_play_index play_index, level_end_result result, level_end_lose_by lose_by, level_end_lose_index lose_index, level_end_cleared_items cleared_items, level_end_total_items total_items, level_end_total_duration_start total_duration_start, level_end_total_duration_end total_duration_end, level_end_play_duration play_duration, level_end_remain_duration remain_duration, level_end_use_unlimited_ticket use_unlimited_ticket, level_end_use_get_more_time use_get_more_time, level_end_use_prebooster_timer use_prebooster_timer, level_end_use_booster_freeze use_booster_freeze, level_end_use_infitity_time use_infitity_time"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "level_exit",
+    "event_name": "level_exit",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, level_exit_ga_session_number ga_session_number, level_exit_ga_session_id ga_session_id, level_exit_mode mode, level_exit_level level, level_exit_play_type play_type, level_exit_play_index play_index, level_exit_lose_index lose_index, level_exit_cleared_items cleared_items, level_exit_total_items total_items, level_exit_total_duration_start total_duration_start, level_exit_total_duration_end total_duration_end, level_exit_play_duration play_duration, level_exit_remain_duration remain_duration, level_exit_exit_index exit_index"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "level_reopen",
+    "event_name": "level_reopen",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, level_reopen_ga_session_number ga_session_number, level_reopen_ga_session_id ga_session_id, level_reopen_mode mode, level_reopen_level level, level_reopen_play_index play_index, level_reopen_lose_index lose_index, level_reopen_total_duration_start total_duration_start"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "level_start",
+    "event_name": "level_start",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, level_start_ga_session_number ga_session_number, level_start_ga_session_id ga_session_id, level_start_mode mode, level_start_level level, level_start_play_type play_type, level_start_play_index play_index, level_start_lose_index lose_index, level_start_total_duration_start total_duration_start"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "lucky_spin",
+    "event_name": "lucky_spin",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, lucky_spin_ga_session_number ga_session_number, lucky_spin_ga_session_id ga_session_id, lucky_spin_spin_by spin_by"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "segment_change",
+    "event_name": "segment_change",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, segment_change_ga_session_number ga_session_number, segment_change_ga_session_id ga_session_id, segment_change_segment_before segment_before, segment_change_segment_after segment_after"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "sky_race_finish",
+    "event_name": "sky_race_finish",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, sky_race_finish_ga_session_number ga_session_number, sky_race_finish_ga_session_id ga_session_id, sky_race_finish_position position, sky_race_finish_result result, sky_race_finish_stage stage"
+  },
+  {
+    "v_project_id": "project-9d3c9d87-4adc-4d3b-ac1",
+    "v_dataset": "candycrushsaga",
+    "v_src_table_name": "flat_event",
+    "v_tar_table_name": "user_info",
+    "event_name": "user_info",
+    "v_tar_transformed_cols": "event_name, event_date, event_timestamp, event_ts, user_pseudo_id, user_id, user_first_touch_timestamp, mobile_brand_name, mobile_model_name, operating_system_version, vendor_id, advertising_id, country, city, app_id, app_version, platform, traffic_source_name, traffic_source_medium, traffic_source, up_level, up_win_streak, up_segment, up_skill, up_ua_network, up_attribution_id, up_first_open_time, user_info_ga_session_number ga_session_number, user_info_ga_session_id ga_session_id, user_info_unlock_by unlock_by, user_info_type type, user_info_detail detail"
+  }
+]
